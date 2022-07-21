@@ -1,0 +1,19 @@
+---
+name: StealSkin
+version: 0.0.1
+main: NhanAZ\StealSkin\Main
+api: 4.0.0
+website: https://github.com/NhanAZ
+author: NhanAZ
+description: Steal someone's skin
+
+commands:
+  stealskin:
+    description: Steal someone's skin
+    usage: "/stealskin <player>"
+    permission: stealskin.command
+permissions:
+  stealskin.command:
+    description: Permission for /stealskin
+    default: op
+...
